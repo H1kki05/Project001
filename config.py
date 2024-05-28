@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7077211812:AAHKKvettcople6i__FaQ-9vldeHP2QdSJA")
 
 #USER id of the bot(for getting files)
 #BUSER_ID = os.environ.get("BUSER_ID")
@@ -26,7 +26,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "2048030675"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://file:link@cluster0.jth5g3y.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "a1pher_files")
 
 #autodelete seconds
