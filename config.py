@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7077211812:AAHKKvettcople6i__FaQ-9vldeHP2QdSJA")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #USER id of the bot(for getting files)
 #BUSER_ID = os.environ.get("BUSER_ID")
